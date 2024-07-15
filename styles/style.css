@@ -168,8 +168,7 @@ input{
 
 .support-container{
     width: 80%;
-    height: 800px;
-    margin: 0px auto;
+    margin: 0px auto 60px;
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
@@ -194,6 +193,89 @@ input{
 }
 
 
+.update-content{
+    width: 80%;
+    height: 500px;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.update-content p{
+    width: 50%;
+    margin: 0px auto 20px;
+    text-align: center;
+}
+
+.bg-color{
+    max-width: 809px;
+    margin: 0px auto 50px;
+
+    height: 200px;
+    background-color:rgb(255, 244, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 0px;
+}
+
+.update-input{
+    width: 275px;
+
+    height: 48px;
+    border-radius: 5px 0px 0px 5px;
+background: rgb(217, 217, 217);
+border: none;
+}
+
+.btn-update{
+    width: 157px;
+
+height: 48px;
+    border-radius: 0px 5px 5px 0px;
+background: rgb(255, 89, 89);
+border: none;
+}
+
+
+.foot{
+    max-width: 1440px;
+
+height: 177px;
+margin: 0px auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: rgb(11, 13, 23);
+}
+
+.foot h5{
+    color: rgb(255, 89, 89);
+    /* border: 2px solid red; */
+    margin: 5px auto;
+    
+    font-size: 36px;
+    
+    font-weight: 400;  
+
+}
+
+.foot p{
+color: rgb(217, 219, 225);
+/* border: 2px solid red; */
+
+font-size: 14px;
+
+font-weight: 400;
+
+}
+
+
 
 
 
@@ -204,7 +286,7 @@ input{
     }
 
     .amount-card{
-        border: 2px solid rgb(0, 238, 255);
+        /* border: 2px solid rgb(0, 238, 255); */
         display: grid;
         width: 100%;
         height: auto;
@@ -220,17 +302,17 @@ input{
     }
 
     .donate-amount{
-        border: 2px solid rgb(0, 255, 68);
+        /* border: 2px solid rgb(0, 255, 68); */
         width: 100%;
         height: auto;
     }
     .donate-amount-content{
-        border: 5px solid black;
+        /* border: 5px solid black; */
         width: 100%;
         height: auto; 
     }
     .input-amount{
-        border: 2px solid rgb(162, 0, 255);
+        /* border: 2px solid rgb(162, 0, 255); */
         width: 100%;
         height: auto; 
     }
@@ -238,14 +320,14 @@ input{
     .donate-content{
         width: 100%;
         height: auto;
-        border: 2px solid green;
+        /* border: 2px solid green; */
         display: flex;
         flex-direction: column;
 
     }
     
     .donate-card{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 100%;
         height: auto;
         padding: 10px;
@@ -291,6 +373,19 @@ input{
         /* border: 2px solid red; */
     }
 
+
+    .bg-color{
+        width: 100%;
+    
+        height: auto;
+        background-color:rgb(255, 244, 214);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        gap: 0px;
+    }
+
     
     
 }
@@ -300,7 +395,7 @@ input{
 @media screen and (min-width: 480px) and (max-width:1200px){
        
     .amount-card{
-        border: 2px solid rgb(0, 238, 255);
+        /* border: 2px solid rgb(0, 238, 255); */
         display: grid;
         width: 100%;
         height: auto;
@@ -316,17 +411,17 @@ input{
     }
 
     .donate-amount{
-        border: 2px solid rgb(0, 255, 68);
+        /* border: 2px solid rgb(0, 255, 68); */
         width: 100%;
         height: auto;
     }
     .donate-amount-content{
-        border: 5px solid black;
+        /* border: 5px solid black; */
         width: 100%;
         height: auto; 
     }
     .input-amount{
-        border: 2px solid rgb(162, 0, 255);
+        /* border: 2px solid rgb(162, 0, 255); */
         width: 100%;
         height: auto; 
     }
@@ -334,14 +429,14 @@ input{
     .donate-content{
         width: 100%;
         height: auto;
-        border: 2px solid green;
+        /* border: 2px solid green; */
         display: flex;
         flex-direction: column;
 
     }
     
     .donate-card{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 100%;
         height: auto;
         padding: 10px;
